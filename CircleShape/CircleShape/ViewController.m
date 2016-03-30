@@ -21,6 +21,8 @@
     view.layer.borderWidth = 2.0f;
     [view drawCircleShape];
     [self.view addSubview:view];
+    
+    NSLog(@"text git");
     // Do any additional setup after loading the view, typically from a nib.
 }
 

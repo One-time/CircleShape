@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041D38311CABB00B007B5075 /* UIView+DrawLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D38301CABB00B007B5075 /* UIView+DrawLine.m */; };
 		0476ADE71C96773F0032103B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476ADE61C96773F0032103B /* main.m */; };
 		0476ADEA1C96773F0032103B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476ADE91C96773F0032103B /* AppDelegate.m */; };
 		0476ADED1C96773F0032103B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476ADEC1C96773F0032103B /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041D382F1CABB00B007B5075 /* UIView+DrawLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DrawLine.h"; sourceTree = "<group>"; };
+		041D38301CABB00B007B5075 /* UIView+DrawLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DrawLine.m"; sourceTree = "<group>"; };
 		0476ADE21C96773F0032103B /* CircleShape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleShape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0476ADE61C96773F0032103B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0476ADE81C96773F0032103B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				0476ADEC1C96773F0032103B /* ViewController.m */,
 				0476ADFC1C96775A0032103B /* CircleShapeView.h */,
 				0476ADFD1C96775A0032103B /* CircleShapeView.m */,
+				041D382F1CABB00B007B5075 /* UIView+DrawLine.h */,
+				041D38301CABB00B007B5075 /* UIView+DrawLine.m */,
 				0476ADEE1C96773F0032103B /* Main.storyboard */,
 				0476ADF11C96773F0032103B /* Assets.xcassets */,
 				0476ADF31C96773F0032103B /* LaunchScreen.storyboard */,
@@ -155,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0476ADED1C96773F0032103B /* ViewController.m in Sources */,
+				041D38311CABB00B007B5075 /* UIView+DrawLine.m in Sources */,
 				0476ADEA1C96773F0032103B /* AppDelegate.m in Sources */,
 				0476ADFE1C96775A0032103B /* CircleShapeView.m in Sources */,
 				0476ADE71C96773F0032103B /* main.m in Sources */,
@@ -304,6 +310,7 @@
 				0476ADFB1C96773F0032103B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

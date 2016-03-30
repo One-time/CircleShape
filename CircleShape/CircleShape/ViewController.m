@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "CircleShapeView.h"
+#import "UIView+DrawLine.h"
 @interface ViewController ()
 
 @end
@@ -21,6 +22,10 @@
     view.layer.borderWidth = 2.0f;
     [view drawCircleShape];
     [self.view addSubview:view];
+    
+//    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(0, 44, 200, 200)];
+//    [view drawLines:@[LineMake(0, 10, 100, 10),LineMake(0, 40, 100, 40)]];
+//    [self.view addSubview:view];
     
     NSLog(@"text git");
     // Do any additional setup after loading the view, typically from a nib.
